@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Design Teardown</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./CSS/styles.css">
-</head>
-<body>
-	<main>
-		<div id="nav">
-				<li><a href="#">Articles</a></li>
-				<li><a href="#">Guides</a></li>
-				<li><a href="#">Books</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Membership</a></li>
-				<li><a href="#">More</a></li>
-				<input type="text" name="search" placeholder="search articles...">
-			</ul>
-		</div>
-	</main>
-
-</body>
+  <head>
+    <title>Design Teardown</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="nav">
+        <div class="logo">Logo</div>
+        <ul>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Membership</a></li>
+          <li>
+            <a class="special-link" href="#">More <i class="fa fa-cat"></i></a>
+          </li>
+          <li class="right">
+            <i class="fa fa-search"></i>
+            <input
+              class="search"
+              type="text"
+              name="search"
+              placeholder="search articles..."
+            />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main-section"></main>
+  </body>
 </html>

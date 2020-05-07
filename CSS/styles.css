@@ -1,14 +1,87 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
+
+header {
+  width: 100vw;
+  height: 20vh;
+  background-color: #d33a2c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header #nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #nav ul {
+  list-style-type: none;
+  /* width: 80vw; */
+  float: left;
+  margin-right: 40px;
+}
+header #nav ul li {
+  display: inline-block;
+  margin: 10px;
+  float: left;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+header #nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 20px;
+}
+
+header #nav ul li a:hover {
+  background-color: #a82e23;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.special-link,
+a.active {
+  background-color: #a82e23;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.right {
+  float: right;
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+}
+
+.fa-search {
+  top: 30px;
+  right: 20px;
+}
+
 main {
-	display: flex;
-	justify-content: space-around;
-	width: 100vw;
-	background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  background-color: #ffffff;
 }
