@@ -23,14 +23,12 @@ header #nav {
   align-items: center;
   position: relative;
 }
-
-header #nav ul {
-  list-style-type: none;
-  /* width: 80vw; */
-  position: absolute;
-  left: 75px;
-  margin-right: 40px;
+header #nav img {
+  width: 235px;
+  height: 95px;
 }
+
+/*
 header #nav ul li {
   display: inline-block;
   margin: 10px;
@@ -89,8 +87,9 @@ a.active {
 ::placeholder {
   text-align: center;
   font-size: 25px;
-}
+} 
 
+*/
 main {
   width: 100vw;
   height: 100vh;
