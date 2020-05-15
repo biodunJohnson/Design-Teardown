@@ -1,0 +1,25 @@
+{
+  "name": "Design-Teardown",
+  "version": "1.0.0",
+  "description": "This project consists of building a heatmap of the Smashing magazine website # Project Name",
+  "main": " stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biodunJohnson/Design-Teardown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biodunJohnson/Design-Teardown/issues"
+  },
+  "homepage": "https://github.com/biodunJohnson/Design-Teardown#readme",
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
