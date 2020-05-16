@@ -11,7 +11,7 @@ main {
 }
 
 .header-content {
-  background-color: #5d1505;
+  background-color: #777;
 }
 
 a {
@@ -83,29 +83,29 @@ a {
 }
 
 .box1 {
-  background-color: #055d5d;
-  border: 1px solid red;
+  background-color: #7e7e7e;
+  border: 0.5px solid rgb(36, 35, 35);
   width: 100%;
   height: 100vh;
 }
 
 .box2 {
-  background-color: #285d05;
-  border: 1px solid red;
+  background-color: #a3a3a3;
+  border: 0.5px solid rgb(36, 35, 35);
   width: 100%;
   height: 100vh;
 }
 
 .box3 {
-  background-color: #afaeae;
-  border: 1px solid red;
+  background-color: #868686;
+  border: 0.5px solid rgb(36, 35, 35);
   width: 100%;
   height: 100vh;
 }
 
 .box4 {
-  background-color: #5d0508;
-  border: 1px solid red;
+  background-color: #979797;
+  border: 0.5px solid rgb(36, 35, 35);
   width: 100%;
   height: 100vh;
 }
@@ -235,12 +235,12 @@ a {
 }
 
 .posts-heading a {
-  color: #f33969;
+  color: rgb(46, 46, 46);
 }
 
 .post:hover .post-arrow {
   color: white;
-  background-color: #5d1505;
+  background-color: #2b2a29;
 }
 
 .post:hover .post-arrow i {
@@ -293,7 +293,7 @@ a {
 
 .main-posts {
   text-align: center;
-  background-color: #5d1505;
+  background-color: #1d1c1b;
 }
 
 .main-posts > h2 {
@@ -458,7 +458,7 @@ a {
 }
 
 .section-6 {
-  background-color: #5d1505;
+  background-color: #5a5858;
   display: flex;
   justify-content: space-between;
   padding: 0 75px;
